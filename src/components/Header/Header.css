@@ -1,6 +1,26 @@
-.header {
-  background-color: white;
-  color: red;
-  height: 200px;
+.header-overlay {
+  position: relative;
+  mix-blend-mode: multiply;
+  height: 170px;
   width: 100%;
+  flex-shrink: 0;
+  background: linear-gradient(
+      277deg,
+      #339034 0%,
+      rgba(51, 144, 52, 1) 6%,
+      rgba(51, 144, 52, 0.5) 25%,
+      rgba(51, 144, 52, 0.5) 50%,
+      rgba(51, 144, 52, 0.5) 75%,
+      rgba(51, 144, 52, 1) 94%,
+      #339034 100%
+    ),
+    url('src/assets/Rectangle80.png');
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

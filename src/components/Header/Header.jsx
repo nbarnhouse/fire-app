@@ -1,5 +1,17 @@
+import React from 'react';
 import './Header.css';
+import NavBar from '../NavBar/NavBar';
+import FireAppLogo from '../FireAppLogo/FireAppLogo';
 
 export default function Header() {
-  return <h2 className="header">Header Test</h2>;
+  return (
+    <header className="header-overlay">
+      <div className="header-logo">
+        <FireAppLogo />
+      </div>
+      <div className="header-nav">
+        <NavBar />
+      </div>
+    </header>
+  );
 }
