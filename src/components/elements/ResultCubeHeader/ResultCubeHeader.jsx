@@ -1,9 +1,10 @@
 import './ResultCubeHeader.css';
+import LocationPin from '../LocationPin/LocationPin';
 
 export default function ResultCubeHeader() {
   return (
     <div className="header">
-      <h3 className="pin dark-shade">Seattle, WA</h3>
+      <LocationPin />
     </div>
   );
 }

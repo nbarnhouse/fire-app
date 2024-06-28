@@ -4,10 +4,13 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <div className="result-container">
-      Home Page
+    <div className="home-result-container">
       <ResultCube />
-      Hi
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
       <ResultCube />
     </div>
   );

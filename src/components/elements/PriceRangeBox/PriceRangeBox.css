@@ -1,0 +1,13 @@
+.price-box {
+  width: 138.305px;
+  height: 74.736px;
+  border-radius: 15.463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* for margin: top right bottom left */
+  filter: drop-shadow(1px 3.214px 3.214px rgba(0, 0, 0, 0.25));
+  font-size: 32.236px;
+  font-weight: 400;
+  margin-right: 20px;
+}

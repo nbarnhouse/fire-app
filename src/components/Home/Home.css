@@ -1,5 +1,4 @@
-.result-container {
+.home-result-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
