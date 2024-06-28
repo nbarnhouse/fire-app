@@ -1,9 +1,14 @@
 body {
   background-color: #fff;
   margin: 0;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  line-height: normal;
 }
 
 .dark-shade {
   background: rgba(30, 30, 30, 0.85);
   mix-blend-mode: normal;
+  color: #fff;
 }

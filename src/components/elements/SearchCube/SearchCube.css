@@ -1,14 +1,10 @@
-.cube {
+.search {
   background-color: #348e35;
-  border-radius: 20px;
   mix-blend-mode: multiply;
-  height: 390.536px;
-  width: 393.75px;
   flex-shrink: 0;
   fill: #338f33;
   mix-blend-mode: multiply;
   filter: drop-shadow(1px 3.214px 3.214px rgba(0, 0, 0, 0.25));
-
   background: linear-gradient(
       278deg,
       rgba(51, 144, 52, 0.76) 0%,
@@ -16,4 +12,14 @@
     ),
     url('src/assets/Rectangle80.png');
   background-size: cover;
+  background-position: center;
 }
+
+/* I am going to need this clip path for the titles: 
+<style>
+    .circle{ 
+         height:100px;
+         background:#f66;
+         clip-path: circle(50px at 0% 50%)
+    }
+</style> */
