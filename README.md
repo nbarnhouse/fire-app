@@ -27,7 +27,7 @@ End users for this FIRE application include:
 ## Options if not already installed
 
 - npm install express
-- npm install react-router-dom@latest
+- npm install react-router-dom
 - npm install react-redux redux redux-saga redux-logger
 - npm install axios
 - npm install dotenv

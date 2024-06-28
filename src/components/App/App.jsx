@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../About/About';
 import CitiesRanked from '../CitiesRanked/CitiesRanked';
@@ -10,26 +9,14 @@ import './App.css';
 
 export default function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/cities">
-            <CitiesRanked />
-          </Route>
-          <Route exact path="/resources">
-            <Resources />
-          </Route>
-          <Route exact path="/community">
-            <Community />
-          </Route>
-        </Routes>
-      </Router>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/cities" element={<CitiesRanked />}></Route>
+        <Route path="/resources" element={<Resources />}></Route>
+        <Route path="/community" element={<Community />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
