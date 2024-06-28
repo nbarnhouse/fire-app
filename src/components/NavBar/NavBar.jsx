@@ -2,8 +2,8 @@ import './NavBar.css';
 
 export default function App() {
   return (
-    <nav class="navbar">
-      <ul class="nav-links">
+    <nav className="navbar">
+      <ul className="nav-links">
         <li>
           <a href="#home">Home</a>
         </li>
