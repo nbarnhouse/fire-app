@@ -1,11 +1,6 @@
-import FireAppLogo from '../FireAppLogo/FireAppLogo';
-import Header from '../Header/Header';
-import NavBar from '../NavBar/NavBar';
+import FireAppLogo from '../elements/FireAppLogo/FireAppLogo';
+import Header from '../elements/Header/Header';
 
 export default function Home() {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div>Home Page</div>;
 }
