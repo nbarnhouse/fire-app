@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 export default function App() {
@@ -5,7 +6,7 @@ export default function App() {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="#home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <svg
@@ -19,7 +20,7 @@ export default function App() {
           </svg>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <svg
@@ -33,7 +34,7 @@ export default function App() {
           </svg>
         </li>
         <li>
-          <a href="#cities">Cities Ranked</a>
+          <Link to="/cities">Cities Ranked</Link>
         </li>
         <li>
           <svg
@@ -47,7 +48,7 @@ export default function App() {
           </svg>
         </li>
         <li>
-          <a href="#resources">Resources</a>
+          <Link to="/resources">Resources</Link>
         </li>
         <li>
           <svg
@@ -61,7 +62,7 @@ export default function App() {
           </svg>
         </li>
         <li>
-          <a href="#community">Community</a>
+          <Link to="/community">Community</Link>
         </li>
       </ul>
     </nav>
