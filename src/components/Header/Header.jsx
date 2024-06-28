@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import NavBar from '../NavBar/NavBar';
-import FireAppLogo from '../FireAppLogo/FireAppLogo';
+import NavBar from '../elements/NavBar/NavBar';
+import FireAppLogo from '../elements/FireAppLogo/FireAppLogo';
 
 export default function Header() {
   return (

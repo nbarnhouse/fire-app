@@ -5,7 +5,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div className="home-result-container">
-      <ResultCube />
+      <SearchCube />
       <ResultCube />
       <ResultCube />
       <ResultCube />

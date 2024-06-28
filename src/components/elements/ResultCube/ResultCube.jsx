@@ -1,12 +1,17 @@
-import ResultCubeHeader from '../ResultCubeHeader/ResultCubeHeader';
-import ResultCubeFooter from '../ResultCubeFooter/ResultCubeFooter';
+import PriceRangeBox from '../PriceRangeBox/PriceRangeBox';
+import LocationPin from '../LocationPin/LocationPin';
+
 import './ResultCube.css';
 
 export default function ResultCube() {
   return (
     <div className="result-container">
-      <ResultCubeHeader />
-      <ResultCubeFooter />
+      <div className="header">
+        <LocationPin />
+      </div>
+      <div className="footer">
+        <PriceRangeBox />
+      </div>
     </div>
   );
 }

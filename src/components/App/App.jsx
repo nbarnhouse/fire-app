@@ -4,7 +4,7 @@ import About from '../About/About';
 import CitiesRanked from '../CitiesRanked/CitiesRanked';
 import Resources from '../Resources/Resources';
 import Community from '../Community/Community';
-import PageLayout from '../elements/PageLayout/PageLayout';
+import PageLayout from '../PageLayout/PageLayout';
 
 import './App.css';
 
