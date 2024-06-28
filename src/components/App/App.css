@@ -2,3 +2,8 @@ body {
   background-color: #fff;
   margin: 0;
 }
+
+.dark-shade {
+  background: rgba(30, 30, 30, 0.85);
+  mix-blend-mode: normal;
+}

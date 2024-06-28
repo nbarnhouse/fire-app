@@ -3,10 +3,10 @@ import './NavBar.css';
 
 export default function App() {
   return (
-    <nav className="navbar">
+    <nav className="navbar dark-shade">
       <ul className="nav-links">
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/ ">Home</Link>
         </li>
         <li>
           <svg

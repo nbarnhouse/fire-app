@@ -1,0 +1,1 @@
+- For CSS Styling - The dark transparent that accents a lot of the text on the site has been added via - className dark-shade and added to the App.css file.

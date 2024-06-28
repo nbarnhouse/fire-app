@@ -1,6 +1,11 @@
-import FireAppLogo from '../elements/FireAppLogo/FireAppLogo';
-import Header from '../elements/Header/Header';
+import SearchCube from '../elements/SearchCube/SearchCube';
+import './Home.css';
 
 export default function Home() {
-  return <div>Home Page</div>;
+  return (
+    <div>
+      Home Page
+      <SearchCube />
+    </div>
+  );
 }
