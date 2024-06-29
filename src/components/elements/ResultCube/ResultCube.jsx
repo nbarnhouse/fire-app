@@ -1,4 +1,5 @@
 import PriceRangeBox from '../PriceRangeBox/PriceRangeBox';
+import CityText from '../CityText/CityText';
 import LocationPin from '../LocationPin/LocationPin';
 
 import './ResultCube.css';
@@ -10,6 +11,7 @@ export default function ResultCube() {
         <LocationPin />
       </div>
       <div className="footer">
+        <CityText />
         <PriceRangeBox />
       </div>
     </div>

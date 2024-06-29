@@ -1,9 +1,10 @@
+import CityText from '../CityText/CityText';
 import './PriceRangeBox.css';
 
 export default function firstPriceRangeBox() {
   return (
-    <>
-      <p className="price-box dark-shade">$4,000</p>
-    </>
+    <div className="price-box dark-shade">
+      <p>$4,000</p>
+    </div>
   );
 }

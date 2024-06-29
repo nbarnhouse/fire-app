@@ -1,0 +1,15 @@
+.city-text-container {
+  color: #fff;
+}
+
+#city-text {
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+#city-slogan {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
