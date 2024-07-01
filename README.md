@@ -18,7 +18,7 @@ End users for this FIRE application include:
 
 ## Installation (Development)
 
-1. Create a database named `fire_db` and run the SQL data in the `database.sql` file.
+1. Create a database named `fire_db` and run the SQL data in the `database.sql` file. For more detail see [Database Documentation](./database/Database.md).
 2. Open up your editor of choice and run an `npm install`
 3. Run `npm run server` in your terminal
 4. Run `npm run client` in your terminal
