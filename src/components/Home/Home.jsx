@@ -1,11 +1,17 @@
-import FireAppLogo from '../FireAppLogo/FireAppLogo';
-import Header from '../Header/Header';
-import NavBar from '../NavBar/NavBar';
+import ResultCube from '../elements/ResultCube/ResultCube';
+import SearchCube from '../elements/SearchCube/SearchCube';
+import './Home.css';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <div className="home-result-container">
+      <SearchCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
+      <ResultCube />
     </div>
   );
 }

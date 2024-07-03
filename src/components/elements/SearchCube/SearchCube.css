@@ -1,0 +1,41 @@
+.search-container {
+  width: 392.58px;
+  height: 376.941px;
+  /* height has to be 50px shorter to accomodate for the result cube overlap. */
+  flex-shrink: 0;
+  margin: 10px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 3.214px 3.214px rgba(0, 0, 0, 0.25));
+  /* The drop shadow is strange and needs to be looked at */
+
+  background: linear-gradient(
+      278deg,
+      rgba(51, 144, 52, 0.76) 0%,
+      rgba(51, 144, 52, 0.76) 100%
+    ),
+    url('src/assets/Rectangle80.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search-text-container {
+  width: 355.982px;
+  height: 48.214px;
+  flex-shrink: 0;
+  border-radius: 18.482px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.558px;
+}
+
+/* I am going to need this clip path for the titles: 
+<style>
+    .circle{ 
+         height:100px;
+         background:#f66;
+         clip-path: circle(50px at 0% 50%)
+    }
+</style> */
