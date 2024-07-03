@@ -1,0 +1,27 @@
+.FireAppLogo {
+  width: 425px;
+  height: 89px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 44.361px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Added this border just to see logo when on a white background */
+  /* border: #000 solid 1px; */
+}
+
+.FireAppLogo img {
+  width: 68.18px;
+  height: 76.047px;
+  flex-shrink: 0;
+}
+
+.FireAppLogo h4 {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 56.802px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
