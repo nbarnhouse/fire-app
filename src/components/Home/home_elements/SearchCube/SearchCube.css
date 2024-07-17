@@ -1,0 +1,109 @@
+.search-container-background {
+  width: 392.58px;
+  /* height has to be 50px shorter to accomodate for the result cube overlap. */
+  height: 342.58px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 3.214px 3.214px rgba(0, 0, 0, 0.25));
+  /* The drop shadow is strange and needs to be looked at */
+
+  background: linear-gradient(
+      278deg,
+      rgba(51, 144, 52, 0.76) 0%,
+      rgba(51, 144, 52, 0.76) 100%
+    ),
+    url('src/assets/Rectangle80.png');
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.search-label {
+  width: 355.982px;
+  height: 48.214px;
+  border-radius: 18.482px;
+  font-size: 28.558px;
+  font-weight: 400;
+}
+
+/* Contains all Detail Items inside the main container */
+.search-details-container {
+  height: 50%;
+}
+
+/* Formatting for the Area Input Search Field */
+.input-format-search {
+  width: 322.232px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 6.429px;
+  background: #fff;
+  font-size: 25.714px;
+  font-weight: 400;
+  /* box-shadow: 0px 3.214px 3.214px 0px rgba(0, 0, 0, 0.25) inset; */
+}
+
+/* Container for Max & Min Range Inputs */
+.range-input-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Formatting for the Max & Min Input Fields */
+.input-format-range {
+  width: 142.232px;
+  height: 35px;
+  font-size: 25.714px;
+  font-weight: 400;
+  border-radius: 6.429px;
+  background: #fff;
+  box-shadow: 0px 3.214px 3.214px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* Formatting for the Area & Price Side Positioned Labels */
+.label-header-format {
+  font-size: 34.698px;
+  margin: 1px;
+  border-radius: 0 20px 20px 0; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+#area {
+  width: 254.732px;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+#price {
+  width: 147.054px;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+/* Formatting for the And/Or Label */
+#and-label-format {
+  width: 88.393px;
+  height: 26.518px;
+  flex-shrink: 0;
+  border-radius: 18.482px;
+  font-size: 17.724px;
+  font-weight: 400;
+  margin: 1px;
+}
+
+/* Formatting for the Search Button */
+.search-button {
+  font-size: 36.351px;
+  font-weight: 400;
+  border-radius: 24.509px;
+  border: 1.607px solid #fff;
+  box-shadow: 0px 3.214px 3.214px 0px rgba(0, 0, 0, 0.25);
+  width: 251.518px;
+  height: 40.661px;
+  background: #e3ad39;
+}
+
+/* General Formatting for anything that needs to be centered */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
