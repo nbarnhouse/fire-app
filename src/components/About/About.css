@@ -1,8 +1,23 @@
+.about-text-container {
+  width: 85%;
+  border-radius: 34px;
+  background: #585858;
+  mix-blend-mode: multiply;
+  padding: 15px;
+  color: #fff;
+}
+
+.image-back-ground-format {
+  width: 100%;
+  height: 640.021px;
+}
+
 .page-title {
   width: 897px;
   height: 137px;
   border-radius: 40px 40px 0 0;
   display: flex;
+  line-height: 5px;
 }
 
 h3 {
@@ -14,4 +29,20 @@ h3 {
 h4 {
   font-size: 26.921px;
   font-weight: 400;
+}
+
+.overview-image img {
+  width: 816px;
+  height: 455px;
+}
+
+.overview-text {
+  width: 466px;
+  height: 473px;
+  flex-shrink: 0;
+}
+
+.about-row-format {
+  display: flex;
+  flex-direction: row;
 }
