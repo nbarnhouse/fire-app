@@ -1,6 +1,6 @@
 import PriceRangeBox from '../PriceRangeBox/PriceRangeBox';
 import CityText from '../CityText/CityText';
-import LocationPin from '../LocationPin/LocationPin';
+import LocationPin from '../../../elements/LocationPin/LocationPin';
 
 import './ResultCube.css';
 
