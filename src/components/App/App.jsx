@@ -1,12 +1,13 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '../Home/Home';
-import About from '../About/About';
-import CitiesRanked from '../CitiesRanked/CitiesRanked';
-import Resources from '../Resources/Resources';
-import Community from '../Community/Community';
-import PageLayout from '../PageLayout/PageLayout';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "../Home/Home";
+import About from "../About/About";
+import CitiesRanked from "../CitiesRanked/CitiesRanked";
+import Resources from "../Resources/Resources";
+import Community from "../Community/Community";
+import PageLayout from "../PageLayout/PageLayout";
+import CityDetails from "../CityDetails/CityDetails";
 
-import './App.css';
+import "./App.css";
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
           <Route path="/cities" element={<CitiesRanked />}></Route>
           <Route path="/resources" element={<Resources />}></Route>
           <Route path="/community" element={<Community />}></Route>
+          <Route path="/detail" element={<CityDetails />}></Route>{" "}
+          {/* Here for development purposes*/}
         </Routes>
       </PageLayout>
     </BrowserRouter>
