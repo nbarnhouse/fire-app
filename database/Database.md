@@ -24,6 +24,10 @@ Entity Relationship Diagram (ERD)
 Tables
 
 - **locations** - used to store location data. Work in Progress
+- **about** - used to store narrative data about locations for detail page view
+- **transport_bullets** - used to store transport bullet points for detail page view
+- **system_bullets** - used to store system bullet points for detail page view
+- **healthcare_bullets** - used to store healthcare bullet points for detail page view
 
 ---
 
